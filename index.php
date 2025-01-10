@@ -11,6 +11,9 @@
 <body>
 
 <div class="full_width">
+
+
+    <div class="full_width"></div>
     <div class="container">
         <header>
             <div class="logo">My logo</div>
