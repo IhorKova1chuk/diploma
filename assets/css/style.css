@@ -6,29 +6,106 @@
     border: none;
     list-style: none;
 }
-.full_width{
+
+.carousel-item {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+}
+
+.slick-initialized .slick-slide{
+    padding: 0 15px !important;
+}
+.club-slider .club-card {
+    padding: 15px;
+    text-align: center;
+}
+.club-slider .club-card img {
     width: 100%;
-    background: red;
-    color: white;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
-.container{
-    max-width: 1200px;
-    background: blue;
-    color: white;
-    display: block;
-    margin: 0 auto;
+.slick-prev, .slick-next {
+    font-size: 30px;
+    color: #000;
+    z-index: 1;
 }
-/*HEADER*/
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10px;
+.slick-dots li button:before {
+    font-size: 10px;
+    color: #000;
 }
-header .menu ul{
-    display: flex;
-    gap: 20px;
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
+    color: red;
 }
-header .menu ul li{
-    cursor: pointer;
+.slick-next{
+    right: -5px!important;
+}
+.slick-prev{
+    left: -5px!important;
+}
+.achievement-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.achievement-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.achievement-card h4 {
+    font-size: 1.25rem;
+    margin-top: 15px;
+}
+.achievement-card p {
+    font-size: 1rem;
+    color: #555;
+}
+.member-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.member-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.member-card h4 {
+    font-size: 1.25rem;
+    margin-top: 15px;
+}
+
+.member-card p {
+    font-size: 1rem;
+    color: #555;
 }

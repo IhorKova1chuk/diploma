@@ -1,6 +1,6 @@
 <?php
 $driver = "mysql";
-$host = "127.0.0.1:3306";
+$host = "127.0.0.1:3307";
 $user = "root";
 $password = "";
 $database = "sport_club";
