@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-md-6">
                     <p>We provide an easy-to-use registration system that allows you to sign up for any of the clubs directly on our website. Choose your favorite sport, complete the registration form, and you're all set to join our community!</p>
-                    <a href="registration-page.php" class="btn btn-primary">Register Now</a>
+                    <a href="pages/register.php" class="btn btn-primary">Register Now</a>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <div class="text-center mt-4">
-                <a href="/clubs.php" class="btn btn-primary">View More Clubs</a>
+                <a href="pages/classes.php" class="btn btn-primary">View More Clubs</a>
             </div>
         </div>
     </section>
@@ -162,7 +162,6 @@
             </div>
         </div>
     </section>
-
     <section id="our-coaches" class="bg-light py-5">
         <div class="container">
             <h2 class="text-center mb-4">Our Coaches</h2>
@@ -213,7 +212,7 @@
         <div class="container">
             <h2 class="mb-4">Join Our Clubs Today!</h2>
             <p class="lead">Whether you're looking to improve your fitness, learn new skills, or compete at a high level, our clubs offer the perfect environment for all ages and skill levels.</p>
-            <a href="/register" class="btn btn-primary btn-lg">Sign Up Now</a>
+            <a href="pages/register.php" class="btn btn-primary btn-lg">Sign Up Now</a>
         </div>
     </section>
     <section id="faq" class="bg-light py-5">
